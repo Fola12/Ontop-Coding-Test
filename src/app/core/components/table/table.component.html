@@ -33,7 +33,7 @@
                 </svg>
               </a>
               <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                <li *ngFor="let action of Actions">
+                <li *ngFor="let action of Actions" (click)="$event.preventDefault(); $event.stopPropagation(); action.click(data, action)">
                   <a class="dropdown-item">
                     <span
                       ><img

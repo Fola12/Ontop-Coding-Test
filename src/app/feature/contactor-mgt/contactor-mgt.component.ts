@@ -65,18 +65,41 @@ export class ContactorMgtComponent implements OnInit {
     {
       name: 'Edit ',
       imgUrl: 'edit-icon.svg',
+      click: (e: any, action: any, event: any) => {
+       console.log('Edit');
+       
+      },
+      
     },
     {
       name: 'Sign',
       imgUrl: 'sign-icon.svg',
+      click: (e: any, action: any, event: any) => {
+          console.log('Sign');
+          
+
+      },
+      
     },
     {
       name: 'View Summary',
       imgUrl: 'viewDoc-icon.svg',
+      click: (e: any, action: any, event: any) => {
+        console.log('View');
+        
+
+      },
+      
     },
     {
       name: 'Delete',
       imgUrl: 'delete-icon.svg',
+      click: (e: any, action: any, event: any) => {
+          console.log('Delete');
+          
+
+      },
+      
     },
   ];
   constructor() {}

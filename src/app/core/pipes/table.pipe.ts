@@ -6,7 +6,6 @@ import { Pipe, PipeTransform } from '@angular/core';
 export class TableSatusPipe implements PipeTransform {
   transform(value: unknown, ...args: unknown[]): unknown {
     let d = value;
-    console.log(d);
 
     if (d === 'Active') {
       d = 'active';
