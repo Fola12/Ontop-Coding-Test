@@ -4,6 +4,9 @@ This project is a Replication of the Ontop Figma Mockup (https://www.figma.com/f
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.3.
 
+Here is the Live Netlify Link https://folakemi-ontop.netlify.app
+
+
 ## Get started
 
 ### Clone the repo
