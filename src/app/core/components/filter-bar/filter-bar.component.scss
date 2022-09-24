@@ -180,7 +180,7 @@
 
 @media (max-width: 991px) {
   .filter-bar {
-    display: block;
+    display: block !important;
     width: 50%;
     margin: auto;
     margin-bottom: 30px;
