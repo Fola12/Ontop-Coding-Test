@@ -73,7 +73,13 @@
     width: 266px;
     .date-bar {
       height: 100%;
-
+      button:focus {
+        border: none !important;
+      }
+  
+      button:active {
+        border: none !important;
+      }
       .btn {
         span.left {
           padding-right: 3px;

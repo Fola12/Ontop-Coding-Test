@@ -26,6 +26,16 @@
   .top-filter {
     display: flex;
     margin-bottom: 28px;
+
+
+    button:focus,a {
+      border: none !important;
+    }
+
+    button:active,a {
+      border: none !important;
+    }
+
     .input-group {
       width: 739px;
       margin-right: 18px;
